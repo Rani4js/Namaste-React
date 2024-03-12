@@ -85,8 +85,8 @@ A cross-origin request is a request for a resource (e.g. style sheets, iframes, 
 </p>
  **Parsing** <p> means analyzing and converting a program into an internal format that a runtime environment can actually run, for example the JavaScript engine inside browsers.</p>
 
-1.HTML parser finds blocking resources, such as script without tags—particularly those without an async or defer attribute—blocks rendering, and pauses parsing of HTML.
+1. HTML parser finds blocking resources, such as script without tags—particularly those without an async or defer attribute—blocks rendering, and pauses parsing of HTML.
 
-2. html parser with async attribute in the script tag will fetch the code parallay with html parse and after completly fecthing the code it blocks the html parser and excutes the code. After completly excuting the code only html parse will run.
+2. HTML parser with async attribute in the script tag will fetch the code parallay with html parse and after completly fecthing the code it blocks the html parser and excutes the code. After completly excuting the code only html parse will run.
    
-3. html parser with defer attribute is much better than the remaining two cases it will fetch the code in parllel with html parse. After completing the html parse only excutes the code. without any blocking.
+3. HTML parser with defer attribute is much better than the remaining two cases it will fetch the code in parllel with html parse. After completing the html parse only excutes the code. without any blocking.
