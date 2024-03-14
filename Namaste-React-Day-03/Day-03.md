@@ -15,4 +15,4 @@ Babel which is the node module is used to convert the JSX element into React ele
 
 # 3. Role of type attribute in script tag? What options can I use there?
 <p>The type attribute of the <script> element indicates the type of script represented by the element: a classic script, an "import map", a JavaScript module, speculation rules, or a data block.</p>
-<p>In react we can use module for type vale in script tag</p>
+<p>In react we can use module for type value in script tag</p>
