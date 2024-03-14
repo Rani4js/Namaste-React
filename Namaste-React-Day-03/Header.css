@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  li {
+    float: left;
+  }
+    
+#logo{
+   
+    width: 120px;
+    padding-top: 15px;
+    height: auto;
+
+
+}
+
+#search{
+    height: 25px;
+    width: 250px;
+    text-align: center;
+}
+
+#user-icon{
+    margin-top: 54px;
+    width: 50px;
+}
+
+form{
+    margin-top: 65px;
+    width: 950px;
+}
+
+header{
+    background: content-box;
+    background-color: dimgray;
+    height: 150px;
+}
